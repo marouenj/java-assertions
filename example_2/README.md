@@ -1,5 +1,5 @@
 # example_2
-Assertion is controlled by the class loader. To enable it
+Assertions are controlled by the class loader. To enable it
 
 	Thread.currentThread().getContextClassLoader().setDefaultAssertionStatus(true);
 
